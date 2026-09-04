@@ -1,143 +1,295 @@
 <!DOCTYPE html>
-<html lang="en">
 
+<html lang="uz">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fylo</title>
+    <title>NovaTech — Future in Your Hands</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header class="header">
-        <img src="Group 5 (2).svg" class="logo" alt="Fylo">
+```
+<!-- HEADER -->
+<header>
+    <nav class="navbar">
+        <a href="#" class="logo">
+            <span class="logo-icon">◉</span>
+            NOVATECH
+        </a>
 
-        <nav>
-            <a href="#">Features</a>
-            <a href="#">Team</a>
-            <a href="#">Sign In</a>
-        </nav>
-    </header>
+        <ul class="nav-links">
+            <li><a href="#home">Bosh sahifa</a></li>
+            <li><a href="#products">Mahsulotlar</a></li>
+            <li><a href="#about">Biz haqimizda</a></li>
+            <li><a href="#support">Yordam</a></li>
+        </ul>
+
+        <div class="nav-icons">
+            <span>⌕</span>
+            <span>♧</span>
+        </div>
+    </nav>
+</header>
 
 
-    <section class="hero">
+<!-- HERO -->
+<main>
 
-        <div class="hero-text">
-            <h1>
-                All your files in one secure
-                location, accessible anywhere.
-            </h1>
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="small-title">YANGI AVLOD TEXNOLOGIYASI</p>
 
-            <p>
-                Fylo stores your most important files in one secure
-                location. Access them wherever you need, share and
-                collaborate with friends, family, and co-workers.
+            <h1>Kelajak.<br><span>Sizning qo'lingizda.</span></h1>
+
+            <p class="hero-text">
+                Kundalik hayotingiz uchun yaratilgan zamonaviy,
+                kuchli va chiroyli texnologiyalarni kashf eting.
             </p>
 
-            <div class="form">
-                <input type="email" placeholder="Enter your email...">
-                <button>Get Started</button>
+            <div class="hero-buttons">
+                <a href="#products" class="btn primary">Kashf qilish</a>
+                <a href="#about" class="btn secondary">Batafsil →</a>
             </div>
         </div>
 
-        <div class="hero-image">
-            <img src="illustration_1-01 (1).svg" alt="">
-        </div>
+        <div class="hero-device">
+            <div class="phone">
+                <div class="camera"></div>
+                <div class="screen">
+                    <span>09:41</span>
 
+                    <div class="screen-circle"></div>
+
+                    <div class="screen-text">
+                        NOVA<br>
+                        ONE
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 
-    <section class="productive">
+    <!-- INTRO -->
+    <section class="intro" id="about">
+        <p class="section-label">NOVATECH EKOTIZIMI</p>
 
-        <div class="productive-text">
+        <h2>Barcha qurilmalar.<br>Bir xil tajriba.</h2>
 
-            <h2>Stay productive, wherever you are</h2>
+        <p>
+            Telefon, noutbuk, planshet va aqlli aksessuarlar
+            bir-biri bilan uyg'un ishlashi uchun yaratilgan.
+        </p>
+    </section>
 
-            <p>
-                Never let location be an issue when accessing your files.
-                Fylo has you covered for all of your file storage needs.
-            </p>
 
-            <p>
-                Securely share files and folders with friends, family and
-                colleagues for live collaboration. No email attachments
-                required!
-            </p>
-                    <div>
-                        <strong>Kyle Burton</strong>
-                        <small>Founder & CEO, Huddle</small>
-                    </div>
+    <!-- PRODUCTS -->
+    <section class="products" id="products">
 
+        <div class="product-card dark-card">
+            <div class="product-info">
+                <p class="product-type">SMARTPHONE</p>
+                <h3>NOVA ONE</h3>
+                <p>
+                    Tezlik, kamera va mukammal dizayn
+                    bir qurilmada.
+                </p>
+
+                <a href="#">Ko'rish →</a>
+            </div>
+
+            <div class="mini-phone">
+                <div class="mini-camera"></div>
+            </div>
+        </div>
+
+
+        <div class="product-card light-card">
+            <div class="product-info">
+                <p class="product-type">LAPTOP</p>
+                <h3>NOVA BOOK</h3>
+                <p>
+                    O'qish, ishlash va ijod qilish
+                    uchun yangi imkoniyat.
+                </p>
+
+                <a href="#">Ko'rish →</a>
+            </div>
+
+            <div class="laptop">
+                <div class="laptop-screen">
+                    <div class="laptop-wallpaper"></div>
                 </div>
 
+                <div class="laptop-base"></div>
+            </div>
+        </div>
+
+
+        <div class="product-card blue-card">
+            <div class="product-info">
+                <p class="product-type">SMART WATCH</p>
+                <h3>NOVA WATCH</h3>
+                <p>
+                    Sog'liq, sport va kunlik hayotingiz
+                    doimo nazorat ostida.
+                </p>
+
+                <a href="#">Ko'rish →</a>
+            </div>
+
+            <div class="watch">
+                <div class="watch-screen">
+                    <span>12:45</span>
+                    <small>ACTIVE</small>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="product-card soft-card">
+            <div class="product-info">
+                <p class="product-type">AUDIO</p>
+                <h3>NOVA SOUND</h3>
+                <p>
+                    Musiqani yanada yaqinroq his qiling.
+                </p>
+
+                <a href="#">Ko'rish →</a>
+            </div>
+
+            <div class="headphones">
+                <div class="headphone left"></div>
+                <div class="headphone right"></div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- FEATURES -->
+    <section class="features">
+
+        <div class="feature-title">
+            <p class="section-label">NIMA UCHUN NOVATECH?</p>
+            <h2>Oddiy.<br>Lekin kuchli.</h2>
+        </div>
+
+        <div class="feature-list">
+
+            <div class="feature">
+                <span>01</span>
+                <h3>Premium dizayn</h3>
+                <p>
+                    Minimalistik va zamonaviy ko'rinish
+                    har bir detalda seziladi.
+                </p>
+            </div>
+
+            <div class="feature">
+                <span>02</span>
+                <h3>Yuqori tezlik</h3>
+                <p>
+                    Kundalik vazifalar va katta ishlar
+                    uchun kuchli texnologiya.
+                </p>
+            </div>
+
+            <div class="feature">
+                <span>03</span>
+                <h3>Uzoq batareya</h3>
+                <p>
+                    Ko'proq ishlang, ko'proq yarating
+                    va kamroq quvvatlang.
+                </p>
             </div>
 
         </div>
 
-
-        <div class="productive-image">
-            <img src="illustration_2-01 (3).svg" alt="">
-        </div>
-
     </section>
 
 
-    <section class="access">
+    <!-- BIG BANNER -->
+    <section class="experience">
 
-        <div class="access-text">
+        <div class="experience-content">
+            <p class="section-label">YANGI TAJRIBA</p>
 
-            <h2>Get early access today</h2>
+            <h2>Texnologiya<br>inson uchun.</h2>
 
             <p>
-                It only takes a minute to sign up and our free starter tier
-                is extremely generous. If you have any questions, our
-                support team would be happy to help you.
+                Har bir qurilma hayotingizni murakkablashtirish
+                uchun emas, uni yanada osonlashtirish uchun yaratilgan.
             </p>
 
+            <a href="#" class="btn primary">Boshlash</a>
         </div>
 
-
-        <div class="access-form">
-
-            <input type="email" placeholder="example@gmail.com">
-
-            <button>Get Started For Free</button>
-
+        <div class="experience-shape">
+            <div class="shape-one"></div>
+            <div class="shape-two"></div>
+            <div class="shape-three"></div>
         </div>
 
     </section>
 
 
-    <footer>
+    <!-- SUPPORT -->
+    <section class="support" id="support">
 
-        <div class="footer-logo">
-            <img src="Group 5 (2).svg" alt="Fylo">
+        <p class="section-label">YORDAM MARKAZI</p>
+
+        <h2>Sizga yordam kerakmi?</h2>
+
+        <div class="support-boxes">
+
+            <div>
+                <h3>⌘</h3>
+                <h4>Mahsulot tanlash</h4>
+                <p>Sizga mos qurilmani tanlashda yordam beramiz.</p>
+            </div>
+
+            <div>
+                <h3>◈</h3>
+                <h4>Texnik yordam</h4>
+                <p>Qurilmangiz bilan bog'liq savollarga javob toping.</p>
+            </div>
+
+            <div>
+                <h3>✦</h3>
+                <h4>Yangiliklar</h4>
+                <p>NovaTech dunyosidagi eng yangi mahsulotlar.</p>
+            </div>
+
         </div>
 
-        <div class="footer-column">
+    </section>
 
-            <p>Phone: +1-543-123-4567</p>
-            <p>Email: example@fylo.com</p>
+</main>
 
-        </div>
 
-        <div class="footer-column">
+<!-- FOOTER -->
+<footer>
 
-            <a href="#">About Us</a>
-            <a href="#">Jobs</a>
-            <a href="#">Press</a>
-            <a href="#">Blog</a>
+    <div class="footer-logo">
+        <span class="logo-icon">◉</span>
+        NOVATECH
+    </div>
 
-        </div>
+    <p>
+        Future technology for everyday life.
+    </p>
 
-        <div class="footer-column">
-          
-        </div>
+    <div class="footer-bottom">
+        <span>© 2026 NovaTech</span>
+        <span>Privacy</span>
+        <span>Terms</span>
+    </div>
 
-    </footer>
+</footer>
+```
 
 </body>
-
 </html>
-```
